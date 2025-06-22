@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ODIN WORLD WIDE</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .banner {
+      font-size: 4em;
+      font-weight: bold;
+      color: #ffffff;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .odin-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <img src="PATH_TO_YOUR_GENERATED_IMAGE" alt="Odin Illustration" class="odin-image" />
+  <div class="banner">ODIN WORLD WIDE</div>
+</body>
+</html>
